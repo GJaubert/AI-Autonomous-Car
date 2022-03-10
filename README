@@ -1,0 +1,26 @@
+Gabriel Garcia Jaubert
+Inteligencia Artificial(2020-2021)
+PE102
+42240610Y
+
+
+
+Para compilar el programa disponemos de un Makefile, escribir:
+make
+No es necesario compilar el programa ya que existe un ejecutable en el directorio bin.
+
+Como ejecutar el programa:
+./exe [nombre de fichero]
+El nombre de fichero es opcional, si no se especifica ninguno
+se ejecutará en modo interactivo.
+
+Ejemplo de formato de fichero:
+-------------------------------------------------------------------------------------------------------
+20 //numero de filas
+20 //numero de columnas
+0  //funcion heurística a utilizar. 0: Manhattan 1: Euclídea
+0,0 //Posicion inicial del coche
+19,19 //Posicion final del coche
+-1 //-1:generar obstaculos aleatoriamente 0,1,2...= numero de obstacullos a introducir manualmente
+25 //25% de obstaculos
+-------------------------------------------------------------------------------------------------------
